@@ -101,15 +101,28 @@ body {
     height: 80px;
 }
 
-.nav-logo h2 {
-    font-size: 1.4rem;
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo .logo-img {
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.nav-logo .logo-text {
+    font-size: 1.1rem;
     font-weight: 700;
+    line-height: 1.2;
     background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    letter-spacing: -0.5px;
+    max-width: 180px;
 }
+
 
 .nav-menu {
     display: flex;
