@@ -9,13 +9,24 @@ html {
     scroll-behavior: smooth;
 }
 
+/* ===== BODY ===== */
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     color: #333;
-    overflow-x: hidden;
+    overflow-x: hidden;                           /* keep X hidden          */
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+
+    /* === hide vertical scrollbar but keep scrolling === */
+    scrollbar-width: none;        /* Firefox      */
+    -ms-overflow-style: none;     /* IE / old Edge*/
 }
+
+/* Chrome, Safari & Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
 
 /* ===== UTILITY CLASSES ===== */
 .container {
