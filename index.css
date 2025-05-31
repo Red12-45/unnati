@@ -993,29 +993,23 @@ section {
     animation: pulse 2s infinite;
 }
 
-.faculty-image {
-    /* Remove fixed height so image can display fully */
-    width: 100%;
-    overflow: hidden;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    /* Remove background gradient; the img will fill the space */
-    background: none;
-}
+
 .faculty-image img {
     width: 100%;
-    height: 350px;
+    height: 200px;
     object-fit: cover;
     object-position: top;
     display: block;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+
 .logo-img {
     height: 40px;
     margin-right: 10px;
     vertical-align: middle;
 }
+
 
 .toggle-text {
     max-height: 200px;
@@ -1027,6 +1021,7 @@ section {
 .toggle-text.expanded {
     max-height: 1000px; /* or any large enough value */
 }
+
 
 
 .read-more-btn {
