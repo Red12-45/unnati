@@ -1098,3 +1098,8 @@ body {
         font-size: 0.9rem;
     }
 }
+.logo-img {
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
